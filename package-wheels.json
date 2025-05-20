@@ -1,0 +1,14 @@
+{
+  "name": "cfwheels-model-generator",
+  "version": "1.0.0",
+  "description": "CFWheels model generator using MSSQL MCP Server",
+  "main": "generate-models.mjs",
+  "type": "module",
+  "scripts": {
+    "generate": "node generate-models.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "@modelcontextprotocol/sdk": "^0.6.0"
+  }
+}
